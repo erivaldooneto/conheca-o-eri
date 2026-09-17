@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erivaldo Vieira — Designer Gráfico, Social Media e Fotógrafo</title>
+<meta name="description" content="Erivaldo Vieira — designer gráfico, social media e fotógrafo em Fortaleza. Identidade visual, fotografia, edição de vídeos, social media, comunicação institucional, captação com drone e IA. Peça um orçamento pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('ev-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  })();
+</script>
+<style>
+:root {
+  color-scheme: light;
+
+  --bg: #f0efef;
+  --bg-deep: #e4e3dd;
+  --surface: #ffffff;
+  --surface-2: #f7f6f3;
+  --surface-3: #e9e8e0;
+
+  --text: #313234;
+  --text-2: #5b5c5e;
+  --text-3: #8a8b86;
+
+  --line: rgba(49, 50, 52, 0.12);
+  --line-strong: rgba(49, 50, 52, 0.22);
+
+  --accent: #d04a2e;
+  --accent-2: #e07a55;
+  --accent-3: #d8d8cc;
+  --accent-soft: rgba(208, 74, 46, 0.12);
+  --accent-contrast: #ffffff;
+
+  --sheen: radial-gradient(120% 140% at 0% 0%, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 55%);
+  --shadow-1: 0 1px 2px rgba(49, 50, 52, 0.05), 0 12px 32px rgba(49, 50, 52, 0.07);
+  --shadow-2: 0 2px 6px rgba(49, 50, 52, 0.06), 0 26px 60px rgba(49, 50, 52, 0.14);
+  --shadow-accent: 0 14px 40px rgba(208, 74, 46, 0.32);
+
+  --font-display: 'Sora', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --fs-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);
+  --fs-sm: clamp(0.8125rem, 0.78rem + 0.25vw, 0.875rem);
+  --fs-base: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+  --fs-md: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  --fs-lg: clamp(1.125rem, 1.02rem + 0.5vw, 1.375rem);
+  --fs-xl: clamp(1.375rem, 1.15rem + 1vw, 1.875rem);
+  --fs-2xl: clamp(1.75rem, 1.35rem + 1.8vw, 2.75rem);
+  --fs-hero: clamp(2.4rem, 1.5rem + 4vw, 4.25rem);
+
+  --radius-sm: 16px;
+  --radius-md: 26px;
+  --radius-lg: 36px;
+  --radius-xl: 48px;
+  --radius-pill: 999px;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  --container: 1200px;
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --header-h: 68px;
+
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --t-fast: 160ms var(--ease);
+  --t-base: 320ms var(--ease);
+  --t-slow: 600ms var(--ease);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #313234;
+  --bg-deep: #2a2b2d;
+  --surface: #3b3c3f;
+  --surface-2: #424346;
+  --surface-3: #4a4b4e;
+
+  --text: #f0efef;
+  --text-2: #c9cac6;
+  --text-3: #97988f;
+
+  --line: rgba(216, 216, 204, 0.14);
+  --line-strong: rgba(216, 216, 204, 0.26);
+
+  --accent: #e26a45;
+  --accent-2: #d04a2e;
+  --accent-3: #d8d8cc;
+  --accent-soft: rgba(226, 106, 69, 0.18);
+  --accent-contrast: #1a1a1a;
+
+  --sheen: radial-gradient(120% 140% at 0% 0%, rgba(240, 239, 239, 0.08) 0%, rgba(240, 239, 239, 0) 55%);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 32px rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 2px 8px rgba(0, 0, 0, 0.4), 0 28px 64px rgba(0, 0, 0, 0.5);
+  --shadow-accent: 0 14px 44px rgba(208, 74, 46, 0.3);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 16px);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  font-size: var(--fs-base);
+  line-height: 1.6;
+  overflow-x: hidden;
+  transition: background var(--t-base), color var(--t-base);
+  background-image:
+    radial-gradient(60% 50% at 85% -5%, var(--accent-soft), transparent 70%),
+    radial-gradient(50% 45% at 3% 8%, rgba(216, 216, 204, 0.55), transparent 70%);
+  background-attachment: fixed;
+}
+
+::selection { background: var(--accent); color: var(--accent-contrast); }
+
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--line-strong); border-radius: 999px; border: 3px solid var(--bg); }
+::-webkit-scrollbar-thumb:hover { background: var(--text-3); }
+
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+ul { list-style: none; }
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.section-head h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  max-width: 22ch;
+}
+
+.section-head p {
+  color: var(--text-2);
+  max-width: 42ch;
+  font-size: var(--fs-md);
+}
+
+.section { padding-block: clamp(2.5rem, 1.5rem + 4.5vw, 5.5rem); }
+
+header.site {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  transition: background var(--t-base), border-color var(--t-base), backdrop-filter var(--t-base);
+}
+
+header.site.scrolled {
+  background: color-mix(in srgb, var(--bg) 72%, transparent);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom-color: var(--line);
+}
+
+.nav-inner {
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-size: 1rem;
+  margin-right: auto;
+}
+
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: var(--shadow-accent);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.nav-links a {
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  color: var(--text-2);
+  transition: color var(--t-fast);
+}
+.nav-links a:hover { color: var(--text); }
+
+.theme-toggle {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  display: grid;
+  place-items: center;
+  position: relative;
+  transition: transform var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+  box-shadow: var(--shadow-1);
+}
+.theme-toggle:hover { transform: translateY(-2px); border-color: var(--line-strong); }
+.theme-toggle:active { transform: scale(0.94); }
+.theme-toggle svg {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  transition: opacity var(--t-base), transform var(--t-base);
+}
+.theme-toggle .icon-moon { opacity: 1; transform: rotate(0) scale(1); }
+.theme-toggle .icon-sun { opacity: 0; transform: rotate(-90deg) scale(0.4); }
+[data-theme="dark"] .theme-toggle .icon-moon { opacity: 0; transform: rotate(90deg) scale(0.4); }
+[data-theme="dark"] .theme-toggle .icon-sun { opacity: 1; transform: rotate(0) scale(1); }
+
+.hero { padding-top: clamp(1.75rem, 1rem + 3vw, 3.25rem); padding-bottom: var(--space-6); }
+
+.bento {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(0.85rem, 0.4rem + 1.2vw, 1.35rem);
+}
+
+.bento > * { grid-column: span var(--c, 12); }
+
+.card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.35rem, 1rem + 1.4vw, 2.15rem);
+  overflow: hidden;
+  box-shadow: var(--shadow-1);
+  transition: transform var(--t-base), box-shadow var(--t-base), border-color var(--t-base), background var(--t-base);
+  isolation: isolate;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--sheen);
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-2);
+  border-color: var(--line-strong);
+}
+
+.card.tall { grid-row: span 2; }
+.card.accent {
+  background:
+    radial-gradient(120% 130% at 15% 0%, rgba(255, 255, 255, 0.22), transparent 55%),
+    linear-gradient(140deg, var(--accent), color-mix(in srgb, var(--accent-2) 75%, var(--accent)));
+  border-color: transparent;
+  color: #fff;
+}
+.card.accent::before { opacity: 0.25; }
+.card.accent .card-text, .card.accent .card-title { color: #fff; }
+.card.accent .card-text { opacity: 0.9; }
+
+.card-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: var(--space-4);
+}
+.card.accent .card-kicker { color: rgba(255, 255, 255, 0.85); }
+
+.card-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--text);
+  margin-bottom: var(--space-3);
+}
+
+.card-text { color: var(--text-2); font-size: var(--fs-base); }
+
+.card-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  margin-bottom: var(--space-5);
+}
+.card-icon svg { width: 22px; height: 22px; }
+.card.accent .card-icon { background: rgba(255, 255, 255, 0.18); color: #fff; }
+
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(1.75rem, 1.2rem + 3vw, 4rem);
+  background: var(--surface);
+}
+.hero-card h1 {
+  font-family: var(--font-display);
+  font-size: var(--fs-hero);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+  margin-block: var(--space-5) var(--space-5);
+  text-wrap: balance;
+}
+.hero-card h1 em {
+  font-style: normal;
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero-card .lead {
+  font-size: var(--fs-md);
+  color: var(--text-2);
+  max-width: 46ch;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  border: 1px solid transparent;
+  transition: transform var(--t-fast), box-shadow var(--t-fast), background var(--t-fast), border-color var(--t-fast), opacity var(--t-fast);
+}
+.btn:hover { transform: translateY(-2px); }
+.btn:active { transform: scale(0.97); }
+.btn svg { width: 16px; height: 16px; }
+.btn-primary {
+  background: var(--text);
+  color: var(--bg);
+  box-shadow: var(--shadow-1);
+}
+.btn-primary:hover { box-shadow: var(--shadow-2); }
+.btn-ghost {
+  background: var(--surface-2);
+  border-color: var(--line);
+  color: var(--text);
+}
+.btn-ghost:hover { border-color: var(--line-strong); }
+
+.hero-visual {
+  padding: 0;
+  min-height: 400px;
+  background: #313234;
+  border-color: transparent;
+}
+.hero-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 22%;
+  transition: transform var(--t-slow);
+}
+.hero-visual:hover .hero-photo { transform: scale(1.04); }
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(49, 50, 52, 0.95) 0%, rgba(49, 50, 52, 0.52) 38%, rgba(49, 50, 52, 0.05) 68%);
+  pointer-events: none;
+}
+.hv-inner {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: clamp(1.35rem, 1rem + 1.4vw, 2.15rem);
+}
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-pill);
+  background: rgba(49, 50, 52, 0.45);
+  border: 1px solid rgba(216, 216, 204, 0.4);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: #fff;
+  align-self: flex-start;
+  backdrop-filter: blur(6px);
+}
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 0 var(--accent-soft);
+  animation: pulse 2.4s infinite;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(208, 74, 46, 0.6); }
+  70% { box-shadow: 0 0 0 10px rgba(208, 74, 46, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(208, 74, 46, 0); }
+}
+.visual-meta strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+.visual-meta span { display: block; font-size: var(--fs-sm); color: rgba(255, 255, 255, 0.85); }
+.visual-meta .place { color: rgba(255, 255, 255, 0.66); margin-top: 0.15rem; }
+
+.stat { display: flex; flex-direction: column; gap: var(--space-1); }
+.stat .num {
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.stat .label { font-size: var(--fs-sm); color: var(--text-2); }
+
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-5); }
+.chip {
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-pill);
+  background: var(--surface-3);
+  border: 1px solid var(--line);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  color: var(--text-2);
+  transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+}
+.chip:hover { color: var(--text); border-color: var(--line-strong); background: var(--accent-soft); }
+.card.accent .chip {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.28);
+  color: #fff;
+}
+
+.feature .card-title { font-size: var(--fs-xl); }
+.feature .card-text { font-size: var(--fs-md); max-width: 40ch; }
+.feature-list { display: grid; gap: var(--space-3); margin-top: var(--space-6); }
+.feature-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-size: var(--fs-sm);
+  color: var(--text-2);
+}
+.feature-list svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--accent); margin-top: 2px; }
+
+.big-visual {
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: conic-gradient(from 180deg, var(--accent), var(--accent-2), var(--accent-3), var(--accent));
+  filter: blur(6px);
+  opacity: 0.22;
+  z-index: -1;
+  transition: transform var(--t-slow);
+}
+.feature:hover .big-visual { transform: scale(1.12) rotate(20deg); }
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-8) var(--space-10);
+}
+.tl-item {
+  position: relative;
+  padding-left: var(--space-5);
+  border-left: 2px solid var(--line);
+}
+.tl-item::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+.tl-year {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--fs-xs);
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.tl-role {
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-block: 0.35rem 0.15rem;
+}
+.tl-org { font-size: var(--fs-sm); color: var(--text-2); }
+.tl-org .place { color: var(--text-3); }
+.tl-desc { font-size: var(--fs-sm); color: var(--text-2); margin-top: var(--space-2); }
+
+.list-simple { display: grid; gap: var(--space-3); margin-top: var(--space-5); }
+.list-simple li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-size: var(--fs-sm);
+  color: var(--text-2);
+}
+.list-simple svg { width: 17px; height: 17px; flex-shrink: 0; color: var(--accent); margin-top: 3px; }
+.card.accent .list-simple li { color: rgba(255, 255, 255, 0.92); }
+.card.accent .list-simple svg { color: #fff; }
+.list-simple strong { color: var(--text); font-weight: 600; }
+.card.accent .list-simple strong { color: #fff; }
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-4);
+}
+.project .thumb {
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(140deg, var(--surface-3), var(--surface-2));
+}
+.project .thumb::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: var(--thumb, linear-gradient(140deg, var(--accent), var(--accent-2)));
+  opacity: 0.92;
+}
+.project .thumb img {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--t-slow);
+}
+.project .thumb::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(to top, rgba(49, 50, 52, 0.72), rgba(49, 50, 52, 0) 55%);
+  pointer-events: none;
+}
+.project:hover .thumb img { transform: scale(1.06); }
+.project:hover .thumb::before { transform: scale(1.06); }
+.project .thumb-label {
+  position: absolute;
+  inset: auto var(--space-4) var(--space-4) var(--space-4);
+  z-index: 3;
+  color: #fff;
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+}
+.project h3 {
+  font-family: var(--font-display);
+  font-size: var(--fs-md);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.project .meta { font-size: var(--fs-xs); color: var(--text-3); text-transform: uppercase; letter-spacing: 0.06em; }
+.project .arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--accent);
+}
+.project .arrow svg { width: 14px; height: 14px; transition: transform var(--t-fast); }
+.project:hover .arrow svg { transform: translate(3px, -3px); }
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-6);
+  padding: clamp(2rem, 1.4rem + 3vw, 4rem);
+  background:
+    radial-gradient(90% 120% at 100% 0%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 60%),
+    var(--surface);
+}
+.contact-card h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  max-width: 20ch;
+}
+.contact-card p { color: var(--text-2); max-width: 50ch; font-size: var(--fs-md); }
+
+.contact-direct { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+.contact-note {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--fs-sm);
+  color: var(--text-2);
+}
+.contact-note svg { width: 16px; height: 16px; color: var(--accent); }
+
+.social-grid { display: grid; gap: var(--space-3); width: 100%; }
+.social {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  transition: transform var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+}
+.social:hover { transform: translateX(4px); border-color: var(--accent); background: var(--accent-soft); }
+.social .ico {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--text);
+}
+.social .ico svg { width: 20px; height: 20px; }
+.social .txt strong { display: block; font-size: var(--fs-base); font-weight: 600; }
+.social .txt span { font-size: var(--fs-sm); color: var(--text-2); }
+.social .go { margin-left: auto; color: var(--text-3); transition: color var(--t-fast), transform var(--t-fast); }
+.social:hover .go { color: var(--accent); transform: translate(2px, -2px); }
+
+.budget-card {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(1.5rem, 1rem + 3vw, 3.5rem);
+  align-items: center;
+  padding: clamp(1.75rem, 1.2rem + 3vw, 3.5rem);
+  background:
+    radial-gradient(80% 120% at 100% 0%, color-mix(in srgb, var(--accent) 24%, transparent), transparent 60%),
+    radial-gradient(70% 120% at 0% 100%, var(--accent-soft), transparent 60%),
+    var(--surface);
+}
+.budget-card h2 {
+  font-family: var(--font-display);
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  margin-block: var(--space-4) var(--space-3);
+  max-width: 18ch;
+}
+.budget-card p { color: var(--text-2); font-size: var(--fs-md); max-width: 46ch; }
+.budget-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-6); }
+.budget-side { display: grid; gap: var(--space-3); }
+.budget-service {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  transition: transform var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+}
+.budget-service:hover { transform: translateX(4px); border-color: var(--accent); background: var(--accent-soft); }
+.budget-service svg { width: 18px; height: 18px; color: var(--accent); flex-shrink: 0; }
+.budget-service .go { margin-left: auto; color: var(--text-3); display: inline-flex; }
+.budget-service .go svg { width: 15px; height: 15px; color: inherit; }
+
+.ig-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-5);
+}
+.ig-avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-lg);
+  background: linear-gradient(140deg, var(--accent), #313234);
+}
+.ig-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.ig-name span { display: block; font-family: var(--font-body); font-weight: 500; font-size: var(--fs-sm); color: var(--text-2); }
+.ig-head .btn { margin-left: auto; }
+.ig-frame {
+  width: 100%;
+  height: 620px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-2);
+  overflow: hidden;
+}
+.ig-frame iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+.float-whatsapp {
+  position: fixed;
+  right: clamp(1rem, 0.5rem + 2vw, 1.75rem);
+  bottom: clamp(1rem, 0.5rem + 2vw, 1.75rem);
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0.85rem 1.25rem;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  box-shadow: var(--shadow-accent);
+  transition: transform var(--t-fast), box-shadow var(--t-fast);
+}
+.float-whatsapp:hover { transform: translateY(-3px) scale(1.02); box-shadow: var(--shadow-2); }
+.float-whatsapp svg { width: 20px; height: 20px; }
+
+footer.site-footer {
+  border-top: 1px solid var(--line);
+  padding-block: var(--space-10);
+  margin-top: var(--space-16);
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  font-size: var(--fs-sm);
+  color: var(--text-2);
+}
+.footer-links { display: flex; gap: var(--space-5); flex-wrap: wrap; }
+.footer-links a { transition: color var(--t-fast); }
+.footer-links a:hover { color: var(--text); }
+
+.reveal { opacity: 1; }
+html.js .reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 700ms var(--ease), transform 700ms var(--ease);
+}
+html.js .reveal.in { opacity: 1; transform: none; }
+
+@media (max-width: 980px) {
+  .bento { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .bento > * { grid-column: span var(--c-md, var(--c, 6)); }
+  .card.tall { grid-row: auto; }
+  .timeline { grid-template-columns: 1fr; }
+  .budget-card { grid-template-columns: 1fr; }
+  .nav-links { display: none; }
+}
+
+@media (max-width: 620px) {
+  .bento { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bento > * { grid-column: 1 / -1; }
+  .bento > .half { grid-column: auto / span 1; }
+  .card { border-radius: var(--radius-md); }
+  .hero-visual { min-height: 300px; }
+  .hero-actions .btn,
+  .contact-direct .btn,
+  .budget-actions .btn { flex: 1 1 auto; justify-content: center; }
+  .stat .num { font-size: var(--fs-xl); }
+  .stat .label { font-size: var(--fs-xs); }
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+  .ig-frame { height: 480px; }
+  .float-whatsapp span { display: none; }
+  .float-whatsapp { padding: 0.85rem; border-radius: 50%; }
+  body { background-attachment: scroll; }
+  .hero-photo { object-position: 50% 28%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  html { scroll-behavior: auto; }
+}
+</style>
+</head>
+<body>
+<header class="site" id="topo">
+  <div class="nav-inner">
+    <a href="#topo" class="brand">
+      <span class="brand-mark">EV</span>
+      <span>Erivaldo Vieira</span>
+    </a>
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#habilidades">Habilidades</a>
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#orcamento">Orçamento</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema claro e escuro" title="Alternar tema">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="bento">
+        <article class="card hero-card reveal" style="--c:7; --c-md:6">
+          <span class="eyebrow">
+            <span class="status-dot"></span> Agenda aberta — vagas limitadas no mês
+          </span>
+          <h1>Design, imagem e conteúdo que <em>vendem a sua marca</em>.</h1>
+          <p class="lead">Sou Erivaldo Vieira, designer, social media e fotógrafo em Fortaleza. Há mais de sete anos ajudo marcas, eventos e instituições a serem vistas, lembradas e escolhidas. Você cuida do negócio — eu cuido da sua imagem.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#trabalhos">
+              Ver trabalhos
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#contato">Falar comigo</a>
+          </div>
+        </article>
+
+        <article class="card hero-visual reveal" style="--c:5; --c-md:6">
+          <img class="hero-photo" src="erivaldo-vieira.jpg" alt="Retrato de Erivaldo Vieira, designer gráfico e fotógrafo">
+          <span class="hero-shade" aria-hidden="true"></span>
+          <div class="hv-inner">
+            <span class="status-pill"><span class="status-dot"></span> Vagas limitadas este mês</span>
+            <div class="visual-meta">
+              <strong>Erivaldo Vieira</strong>
+              <span>Designer Gráfico &middot; Social Media &middot; Fotógrafo</span>
+              <span class="place">Fortaleza &middot; Ceará, Brasil</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal half" style="--c:3; --c-md:3">
+          <div class="stat">
+            <span class="num">7+</span>
+            <span class="label">anos de experiência</span>
+          </div>
+        </article>
+        <article class="card reveal half" style="--c:3; --c-md:3">
+          <div class="stat">
+            <span class="num">20+</span>
+            <span class="label">projetos publicados</span>
+          </div>
+        </article>
+        <article class="card reveal half" style="--c:3; --c-md:3">
+          <div class="stat">
+            <span class="num">4</span>
+            <span class="label">instituições atendidas</span>
+          </div>
+        </article>
+        <article class="card reveal half" style="--c:3; --c-md:3">
+          <div class="stat">
+            <span class="num">360°</span>
+            <span class="label">do conceito à entrega</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="habilidades">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">O que eu faço</span>
+          <h2>Tudo o que sua marca precisa, em um só lugar</h2>
+        </div>
+        <p>Design, fotografia, vídeo e conteúdo sob o mesmo olhar. Mais consistência para a marca e bem menos dor de cabeça para você.</p>
+      </div>
+
+      <div class="bento">
+        <article class="card feature tall reveal" style="--c:7; --c-md:6">
+          <span class="big-visual"></span>
+          <span class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+          </span>
+          <span class="card-kicker">Design gráfico &amp; identidade visual</span>
+          <h3 class="card-title">Marcas que nascem do conceito e chegam prontas para o mundo</h3>
+          <p class="card-text">Criação de identidades visuais, logotipos, sistemas de marca, materiais institucionais e peças para eventos. Do briefing ao manual de aplicação, com consistência em cada ponto de contato.</p>
+          <ul class="feature-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Identidade visual e branding para marcas e eventos</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Peças gráficas, editoriais e materiais de campanha</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Cartilhas institucionais, materiais impressos e web</li>
+          </ul>
+        </article>
+
+        <article class="card reveal" style="--c:5; --c-md:3">
+          <span class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3.5"/></svg>
+          </span>
+          <span class="card-kicker">Fotografia</span>
+          <h3 class="card-title">Imagem com intenção</h3>
+          <p class="card-text">Cobertura de eventos, ensaios, casamentos e registros institucionais. Direção, captação, tratamento e seleção com atenção à luz e à narrativa — inclusive em tempo real.</p>
+        </article>
+
+        <article class="card reveal" style="--c:5; --c-md:3">
+          <span class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M10 9l5 3-5 3V9z"/></svg>
+          </span>
+          <span class="card-kicker">Social media &amp; conteúdo</span>
+          <h3 class="card-title">Conteúdo que circula e engaja</h3>
+          <p class="card-text">Criação de conteúdo para redes e campanhas: artes, peças digitais, edição de vídeos e páginas web em WordPress, com ritmo pensado para o feed.</p>
+        </article>
+
+        <article class="card reveal" style="--c:4; --c-md:3">
+          <span class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg>
+          </span>
+          <span class="card-kicker">Comunicação institucional</span>
+          <h3 class="card-title">Institucional com clareza</h3>
+          <p class="card-text">Atuação em secretaria de governo, comunidade e instituto federal, traduzindo projetos, obras e valores para diferentes públicos.</p>
+        </article>
+
+        <article class="card reveal" style="--c:4; --c-md:3">
+          <span class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M9.5 5.5h5"/><rect x="7" y="8" width="10" height="6" rx="2"/><path d="M5 17l3-3M19 17l-3-3M5 17v3M19 17v3"/></svg>
+          </span>
+          <span class="card-kicker">Operação de drone</span>
+          <h3 class="card-title">Perspectivas que ampliam a história</h3>
+          <p class="card-text">Captação aérea para eventos, obras, paisagens e conteúdo institucional, com planos que revelam escala e contexto.</p>
+        </article>
+
+        <article class="card reveal" style="--c:4; --c-md:6">
+          <span class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2z"/></svg>
+          </span>
+          <span class="card-kicker">Inteligência artificial</span>
+          <h3 class="card-title">IA como acelerador criativo</h3>
+          <p class="card-text">Uso de IA generativa para ideação, variações de layout, mockups e otimização de fluxos — inovação aplicada ao processo, sem abrir mão do olhar humano.</p>
+        </article>
+
+        <article class="card accent reveal" style="--c:12; --c-md:6">
+          <span class="card-kicker">Ferramentas e competências</span>
+          <h3 class="card-title">Um estúdio completo na ponta dos dedos</h3>
+          <div class="chips">
+            <span class="chip">Photoshop</span>
+            <span class="chip">Illustrator</span>
+            <span class="chip">Lightroom</span>
+            <span class="chip">InDesign</span>
+            <span class="chip">Premiere Pro</span>
+            <span class="chip">Adobe XD</span>
+            <span class="chip">Fotografia</span>
+            <span class="chip">Social Media</span>
+            <span class="chip">Edição de vídeos</span>
+            <span class="chip">Sites / WordPress</span>
+            <span class="chip">IA generativa</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trajetoria">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Trajetória</span>
+          <h2>Experiência que você pode confiar</h2>
+        </div>
+        <p>Governo do Ceará, Comunidade Católica Shalom e Instituto Federal: repertório construído em projetos reais, com prazos e responsabilidade.</p>
+      </div>
+
+      <div class="bento">
+        <article class="card reveal" style="--c:12; --c-md:6">
+          <span class="card-kicker">Experiência profissional</span>
+          <h3 class="card-title">Onde eu atuei</h3>
+          <div class="timeline">
+            <div class="tl-item">
+              <span class="tl-year">2023 — Atual</span>
+              <div class="tl-role">Assessoria de Comunicação</div>
+              <div class="tl-org">Secretaria da Infraestrutura do Ceará — SEINFRA <span class="place">&middot; Fortaleza, CE</span></div>
+              <p class="tl-desc">Acompanhamento de projetos e obras da pasta para comunicação em redes sociais e sites. Fotografia de eventos, edição de apresentações e vídeos, produção de material gráfico impresso, edição de páginas web e cobertura do secretário em eventos.</p>
+            </div>
+            <div class="tl-item">
+              <span class="tl-year">2021 — 2023</span>
+              <div class="tl-role">Designer Gráfico e Fotógrafo</div>
+              <div class="tl-org">Comunidade Católica Shalom — Diaconia Geral <span class="place">&middot; Aquiraz, CE</span></div>
+              <p class="tl-desc">Produção das identidades visuais dos principais eventos internos e externos da comunidade, além de fotografia na captação e edição em coberturas de eventos em tempo real.</p>
+            </div>
+            <div class="tl-item">
+              <span class="tl-year">2020 — 2021</span>
+              <div class="tl-role">Designer Gráfico — Setor Memorial</div>
+              <div class="tl-org">Instituto Federal de Sergipe — IFS <span class="place">&middot; Aracaju, SE</span></div>
+              <p class="tl-desc">Bolsista no setor de memorial, desenvolvendo peças gráficas digitais para o Instagram @ifsmemorial, cartilhas institucionais e edição de vídeos e fotos.</p>
+            </div>
+            <div class="tl-item">
+              <span class="tl-year">2019 — 2020</span>
+              <div class="tl-role">Designer Gráfico e Social Media</div>
+              <div class="tl-org">Connat Soluções <span class="place">&middot; Propriá, SE</span></div>
+              <p class="tl-desc">Criação de peças gráficas digitais e impressas para campanhas publicitárias de clientes comerciais da startup.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal" style="--c:4; --c-md:3">
+          <span class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 2.7 2.5 6 2.5s6-1.5 6-2.5v-5"/></svg>
+          </span>
+          <span class="card-kicker">Formação acadêmica</span>
+          <h3 class="card-title">Base sólida em design</h3>
+          <ul class="list-simple">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+              <span><strong>Design Gráfico</strong> — Bacharelado<br>Universidade Tiradentes &middot; 2018–2021</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+              <span><strong>Ensino Médio</strong><br>Fundação Bradesco &middot; 2017</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card reveal" style="--c:4; --c-md:3">
+          <span class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5V6a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 1.5z"/><path d="M8 8h7M8 12h7"/></svg>
+          </span>
+          <span class="card-kicker">Formação complementar</span>
+          <h3 class="card-title">Cursos e aperfeiçoamento</h3>
+          <ul class="list-simple">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span>SUÍTE — EGPCE</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span>Atendimento ao Público — Fundação Bradesco</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span>Redação — Fundação Bradesco</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> <span>Informática Básica e Pacote Office — Casa da Juventude</span></li>
+          </ul>
+        </article>
+
+        <article class="card accent reveal" style="--c:4; --c-md:6">
+          <span class="card-kicker">Como eu trabalho</span>
+          <h3 class="card-title">Escuto, traduzo e entrego</h3>
+          <p class="card-text">Entender o contexto é metade do projeto. Depois, traduzo objetivos em escolhas visuais e acompanho a entrega do conceito ao resultado final, com comunicação próxima e prazos claros.</p>
+          <div class="chips">
+            <span class="chip">Briefing atento</span>
+            <span class="chip">Comunicação clara</span>
+            <span class="chip">Entrega no prazo</span>
+            <span class="chip">Olhar estratégico</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trabalhos">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Trabalhos selecionados</span>
+          <h2>Resultados que falam por si</h2>
+        </div>
+        <a class="btn btn-ghost" href="https://www.behance.net/erivadovieira" target="_blank" rel="noopener">
+          Ver portfólio completo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+
+      <div class="bento">
+        <a class="card project reveal" style="--c:4; --c-md:3; --thumb:linear-gradient(140deg,#d04a2e,#313234)" href="https://www.behance.net/gallery/153793815/Cipreste-Energia-Solar" target="_blank" rel="noopener">
+          <div class="thumb"><img src="assets/cipreste.jpg" alt="Identidade visual Cipreste Energia Solar" loading="lazy"><span class="thumb-label">Energia solar</span></div>
+          <span class="meta">Identidade visual</span>
+          <h3>Cipreste Energia Solar</h3>
+          <span class="arrow">Ver projeto <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+        </a>
+
+        <a class="card project reveal" style="--c:4; --c-md:3; --thumb:linear-gradient(140deg,#313234,#d04a2e)" href="https://www.behance.net/gallery/203295579/Acamps-2024" target="_blank" rel="noopener">
+          <div class="thumb"><img src="assets/acamps.jpg" alt="Campanha e identidade do Acamp's 2024" loading="lazy"><span class="thumb-label">Acamp's 2024</span></div>
+          <span class="meta">Evento &middot; campanha</span>
+          <h3>Acamp's 2024</h3>
+          <span class="arrow">Ver projeto <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+        </a>
+
+        <a class="card project reveal" style="--c:4; --c-md:3; --thumb:linear-gradient(140deg,#d8d8cc,#d04a2e)" href="https://www.behance.net/gallery/153793037/Espaco-Educativo-de-Paz" target="_blank" rel="noopener">
+          <div class="thumb"><img src="assets/espaco.jpg" alt="Identidade visual do Espaço Educativo de Paz" loading="lazy"><span class="thumb-label">Projeto social</span></div>
+          <span class="meta">Identidade &middot; educativo</span>
+          <h3>Espaço Educativo de Paz</h3>
+          <span class="arrow">Ver projeto <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+        </a>
+
+        <a class="card project reveal" style="--c:4; --c-md:3; --thumb:linear-gradient(140deg,#d04a2e,#e07a55)" href="https://www.behance.net/gallery/203296797/Arraia-da-Paz" target="_blank" rel="noopener">
+          <div class="thumb"><img src="assets/arraia.jpg" alt="Comunicação visual do Arraiá da Paz" loading="lazy"><span class="thumb-label">Arraiá da Paz</span></div>
+          <span class="meta">Festival &middot; comunicação</span>
+          <h3>Arraiá da Paz</h3>
+          <span class="arrow">Ver projeto <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+        </a>
+
+        <a class="card project reveal" style="--c:4; --c-md:3; --thumb:linear-gradient(140deg,#4a4b4e,#d04a2e)" href="https://www.behance.net/gallery/153792477/Shalom-na-JMJ-2023" target="_blank" rel="noopener">
+          <div class="thumb"><img src="assets/jmj.jpg" alt="Identidade do Shalom na JMJ 2023" loading="lazy"><span class="thumb-label">JMJ 2023</span></div>
+          <span class="meta">Evento internacional</span>
+          <h3>Shalom na JMJ 2023</h3>
+          <span class="arrow">Ver projeto <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+        </a>
+
+        <a class="card project reveal" style="--c:4; --c-md:3; --thumb:linear-gradient(140deg,#d8d8cc,#313234)" href="https://www.behance.net/gallery/153791553/Acampamento-de-jovens-Shalom-2022" target="_blank" rel="noopener">
+          <div class="thumb"><img src="assets/acampamento.jpg" alt="Identidade do Acampamento de Jovens Shalom 2022" loading="lazy"><span class="thumb-label">Acampamento 2022</span></div>
+          <span class="meta">Evento &middot; identidade</span>
+          <h3>Acampamento de Jovens Shalom 2022</h3>
+          <span class="arrow">Ver projeto <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="instagram">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Direto do Instagram</span>
+          <h2>Bastidores, projetos e novidades no dia a dia</h2>
+        </div>
+        <a class="btn btn-ghost" href="https://www.instagram.com/midiasdoeri" target="_blank" rel="noopener">
+          Seguir @midiasdoeri
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+      <article class="card reveal">
+        <div class="ig-head">
+          <span class="ig-avatar" aria-hidden="true">E</span>
+          <span class="ig-name">@midiasdoeri<span>Design, fotografia e conteúdo</span></span>
+        </div>
+        <div class="ig-frame">
+          <iframe src="https://www.instagram.com/midiasdoeri/embed/" title="Publicações do Instagram de Erivaldo Vieira" loading="lazy" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="orcamento">
+    <div class="container">
+      <article class="card budget-card reveal">
+        <div>
+          <span class="card-kicker">Orçamento rápido e sem compromisso</span>
+          <h2>Precisa de um serviço? Peça seu orçamento agora.</h2>
+          <p>Me conte o que você precisa e receba uma proposta sob medida. Normalmente respondo em poucas horas — e, se eu não for a pessoa certa para o seu projeto, eu te digo na hora.</p>
+          <div class="budget-actions">
+            <a class="btn btn-primary" href="https://wa.me/5585987569529?text=Ol%C3%A1%20Erivaldo!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.05L2 22l5.1-1.33A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 0 1 0 16.4 8.15 8.15 0 0 1-4.16-1.14l-.3-.18-3.03.79.81-2.95-.2-.31A8.2 8.2 0 0 1 12 3.8zm-3.1 4.02c-.15 0-.4.06-.6.28-.21.22-.8.78-.8 1.9 0 1.12.82 2.2.93 2.35.11.15 1.6 2.56 3.97 3.5 1.97.77 2.37.62 2.8.58.42-.04 1.37-.56 1.56-1.1.2-.54.2-1 .14-1.1-.06-.1-.22-.16-.46-.28-.24-.12-1.37-.68-1.58-.76-.21-.08-.37-.12-.52.12-.15.24-.6.75-.73.9-.14.16-.27.18-.5.06-.24-.12-1-.37-1.9-1.18-.7-.62-1.17-1.39-1.31-1.63-.13-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.15.04-.29-.02-.41-.06-.12-.53-1.28-.73-1.75-.19-.46-.39-.4-.53-.4h-.48z"/></svg>
+              Pedir orçamento no WhatsApp
+            </a>
+            <a class="btn btn-ghost" href="mailto:erivaldovieira.designer@gmail.com?subject=Or%C3%A7amento%20-%20seu%20site">
+              Ou por e-mail
+            </a>
+          </div>
+        </div>
+        <div class="budget-side">
+          <span class="eyebrow">Toque no serviço e eu já recebo seu pedido</span>
+          <a class="budget-service" href="https://wa.me/5585987569529?text=Ol%C3%A1%20Erivaldo!%20Quero%20um%20or%C3%A7amento%20de%20identidade%20visual." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            Identidade visual e marca
+            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="budget-service" href="https://wa.me/5585987569529?text=Ol%C3%A1%20Erivaldo!%20Quero%20um%20or%C3%A7amento%20de%20fotografia." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            Fotografia de eventos e ensaios
+            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="budget-service" href="https://wa.me/5585987569529?text=Ol%C3%A1%20Erivaldo!%20Quero%20um%20or%C3%A7amento%20de%20edi%C3%A7%C3%A3o%20de%20v%C3%ADdeo." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            Edição de vídeo
+            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="budget-service" href="https://wa.me/5585987569529?text=Ol%C3%A1%20Erivaldo!%20Quero%20um%20or%C3%A7amento%20de%20capta%C3%A7%C3%A3o%20com%20drone." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            Captação com drone
+            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="budget-service" href="https://wa.me/5585987569529?text=Ol%C3%A1%20Erivaldo!%20Quero%20um%20or%C3%A7amento%20de%20social%20media." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            Social media e conteúdo
+            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="budget-service" href="https://wa.me/5585987569529?text=Ol%C3%A1%20Erivaldo!%20Quero%20um%20or%C3%A7amento%20para%20um%20projeto%20com%20IA." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+            Projeto com IA
+            <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="bento">
+        <article class="card contact-card reveal" style="--c:7; --c-md:6">
+          <span class="eyebrow">Vamos conversar</span>
+          <h2>Tem um projeto, uma marca ou um evento para comunicar?</h2>
+          <p>Estou aberto a projetos de identidade visual, fotografia, social media, edição de vídeos e captação aérea. Me chama por e-mail, WhatsApp ou pelas redes — a gente transforma a ideia em resultado.</p>
+          <div class="contact-direct">
+            <a class="btn btn-primary" href="mailto:erivaldovieira.designer@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="3"/><path d="M3 7l9 6 9-6"/></svg>
+              Enviar e-mail
+            </a>
+            <a class="btn btn-ghost" href="https://wa.me/5585987569529" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.05L2 22l5.1-1.33A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 0 1 0 16.4 8.15 8.15 0 0 1-4.16-1.14l-.3-.18-3.03.79.81-2.95-.2-.31A8.2 8.2 0 0 1 12 3.8zm-3.1 4.02c-.15 0-.4.06-.6.28-.21.22-.8.78-.8 1.9 0 1.12.82 2.2.93 2.35.11.15 1.6 2.56 3.97 3.5 1.97.77 2.37.62 2.8.58.42-.04 1.37-.56 1.56-1.1.2-.54.2-1 .14-1.1-.06-.1-.22-.16-.46-.28-.24-.12-1.37-.68-1.58-.76-.21-.08-.37-.12-.52.12-.15.24-.6.75-.73.9-.14.16-.27.18-.5.06-.24-.12-1-.37-1.9-1.18-.7-.62-1.17-1.39-1.31-1.63-.13-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.15.04-.29-.02-.41-.06-.12-.53-1.28-.73-1.75-.19-.46-.39-.4-.53-.4h-.48z"/></svg>
+              WhatsApp
+            </a>
+          </div>
+          <span class="contact-note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            Centro, Fortaleza — Ceará &middot; (85) 9 8756-9529
+          </span>
+        </article>
+
+        <article class="card reveal" style="--c:5; --c-md:6">
+          <span class="card-kicker">Redes e portfólio</span>
+          <h3 class="card-title">Me acompanhe por aqui</h3>
+          <div class="social-grid">
+            <a class="social" href="https://www.linkedin.com/in/erivaldo-vieira-43b274186/" target="_blank" rel="noopener">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C21.4 8.65 22 11 22 14v7h-4v-6.2c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.6-2.38 3.27V21h-4V9z"/></svg></span>
+              <span class="txt"><strong>LinkedIn</strong><span>/in/erivaldo-vieira</span></span>
+              <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </a>
+            <a class="social" href="https://www.behance.net/erivadovieira" target="_blank" rel="noopener">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8.2 5.6c1.7 0 3 .8 3 2.6 0 1-.5 1.7-1.4 2.1 1.2.3 1.9 1.2 1.9 2.5 0 2-1.6 2.9-3.4 2.9H2V5.6h6.2zM4.6 9.4h3c.8 0 1.3-.4 1.3-1.1s-.5-1-1.3-1h-3v2.1zm0 4.5h3.2c.9 0 1.5-.4 1.5-1.2s-.6-1.2-1.5-1.2H4.6v2.4zM17.6 6.1h4.2v1.2h-4.2V6.1zm2.2 2.9c2.1 0 3.5 1.5 3.5 3.7 0 .2 0 .4-.1.6h-5.6c.1 1.2.8 1.9 1.9 1.9.8 0 1.4-.3 1.7-.9h1.9c-.4 1.6-1.8 2.6-3.6 2.6-2.3 0-3.9-1.6-3.9-3.9 0-2.4 1.6-4 4.2-4zm1.6 3.1c-.1-1-.7-1.6-1.7-1.6s-1.7.6-1.8 1.6h3.5z"/></svg></span>
+              <span class="txt"><strong>Behance</strong><span>/erivadovieira</span></span>
+              <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </a>
+            <a class="social" href="https://www.instagram.com/midiasdoeri" target="_blank" rel="noopener">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></span>
+              <span class="txt"><strong>Instagram</strong><span>@midiasdoeri</span></span>
+              <span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg></span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; <span id="year"></span> Erivaldo Vieira Dantas Neto — Design, fotografia e conteúdo digital.</span>
+    <nav class="footer-links" aria-label="Redes sociais">
+      <a href="mailto:erivaldovieira.designer@gmail.com">E-mail</a>
+      <a href="https://www.linkedin.com/in/erivaldo-vieira-43b274186/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.behance.net/erivadovieira" target="_blank" rel="noopener">Behance</a>
+      <a href="https://www.instagram.com/midiasdoeri" target="_blank" rel="noopener">Instagram</a>
+      <a href="#topo">Voltar ao topo</a>
+    </nav>
+  </div>
+</footer>
+
+<a class="float-whatsapp" href="https://wa.me/5585987569529?text=Ol%C3%A1%20Erivaldo!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Pedir orçamento no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.05L2 22l5.1-1.33A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 0 1 0 16.4 8.15 8.15 0 0 1-4.16-1.14l-.3-.18-3.03.79.81-2.95-.2-.31A8.2 8.2 0 0 1 12 3.8zm-3.1 4.02c-.15 0-.4.06-.6.28-.21.22-.8.78-.8 1.9 0 1.12.82 2.2.93 2.35.11.15 1.6 2.56 3.97 3.5 1.97.77 2.37.62 2.8.58.42-.04 1.37-.56 1.56-1.1.2-.54.2-1 .14-1.1-.06-.1-.22-.16-.46-.28-.24-.12-1.37-.68-1.58-.76-.21-.08-.37-.12-.52.12-.15.24-.6.75-.73.9-.14.16-.27.18-.5.06-.24-.12-1-.37-1.9-1.18-.7-.62-1.17-1.39-1.31-1.63-.13-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.15.04-.29-.02-.41-.06-.12-.53-1.28-.73-1.75-.19-.46-.39-.4-.53-.4h-.48z"/></svg>
+  <span>Orçamento no WhatsApp</span>
+</a>
+
+<script>
+  document.documentElement.classList.add('js');
+
+  var root = document.documentElement;
+  var toggle = document.getElementById('themeToggle');
+
+  toggle.addEventListener('click', function () {
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('ev-theme', next); } catch (e) {}
+  });
+
+  var header = document.querySelector('header.site');
+  var onScroll = function () {
+    header.classList.toggle('scrolled', window.scrollY > 8);
+  };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(function (el) { io.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('in'); });
+  }
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
